@@ -24,4 +24,5 @@ MBR分区的关键之处在于磁盘的第一个分区，该分区被分为两�
 占446Bytes，而分区表占64Bytes。
 
 基本的MBR分区表是把磁盘分为4各部分，当然也可以只规定主要分区和延伸分区，从而对延伸分区进行再划分
-![图片](https://github.com/Langweng/The-notes-for-linux/blob/main/%E4%BC%A0%E7%BB%9F%E5%88%86%E5%8C%BA%E8%A1%A8.png)
+<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E4%BC%A0%E7%BB%9F%E5%88%86%E5%8C%BA%E8%A1%A8.png width=400 height=300>
+<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E5%88%86%E5%8C%BA%E8%A1%A82.png width=400 height=300>
