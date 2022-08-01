@@ -52,4 +52,4 @@ GPT分区中的每个分区都可以看作主分区，都可以格式化
 
 Linux中的文件是以目录树的形式组织的
 
-<img scr=https://github.com/Langweng/The-notes-for-linux/blob/main/%E7%9B%AE%E5%BD%95%E6%A0%91.png width=400 height=300>
+<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E7%9B%AE%E5%BD%95%E6%A0%91.png width=400 height=300>
