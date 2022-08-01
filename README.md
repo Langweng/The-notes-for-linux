@@ -26,3 +26,7 @@ MBR分区的关键之处在于磁盘的第一个分区，该分区被分为两�
 基本的MBR分区表是把磁盘分为4各部分，当然也可以只规定主要分区和延伸分区，从而对延伸分区进行再划分
 <img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E4%BC%A0%E7%BB%9F%E5%88%86%E5%8C%BA%E8%A1%A8.png width=400 height=300>
 <img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E5%88%86%E5%8C%BA%E8%A1%A82.png width=400 height=300>
+
+* 磁盘分区分为主要分区和延伸分区
+* 两者加起来记录最多有4个，延伸分区最多有1个，且不可以格式化
+* 逻辑分区是延伸分区继续切割出的区域
