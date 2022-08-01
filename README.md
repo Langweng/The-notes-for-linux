@@ -34,3 +34,12 @@ MBR分区的关键之处在于磁盘的第一个分区，该分区被分为两�
 ### GPT分区表
 
 由于MBR分区表0磁区代码容量限制的原因和所能管理的磁盘容量有限，从而开发了GPT分区表技术。
+
+<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/GPT%E5%88%86%E5%8C%BA%E8%A1%A8.png width=300 height=500>
+
+GPT分区表储存在逻辑区块位址(LBA)中，前34个LBA用于储存相关信息，后34个LBA用于备份，理论容量可达230TB
+
+* LBA0 主要用于兼容MBR，只是分区表换成了识别是否支持GPT分区表的程序
+* LBA1 分区表及备份的位置和大小，检验机制码
+* LBA2-34 主要记录区
+* LBA35-64 备份区
