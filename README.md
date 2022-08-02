@@ -53,3 +53,23 @@ GPT分区中的每个分区都可以看作主分区，都可以格式化
 Linux中的文件是以目录树的形式组织的
 
 <img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E7%9B%AE%E5%BD%95%E6%A0%91.png width=400 height=300>
+
+## CentOS 7指令入门
+
+### 查询指令
+
+-- help 查询有关指令的帮助
+
+按两次[Tab]补全指令
+
+man page模式
+
+其中man page模式介绍最为详细，按q退出，1代表可执行程序，5代表文件，8代表管理员可用的管理指令
+
+有时候会用man -f [] 搜寻特定指令，man -k [] 则是搜寻关键字，分别相当于whatis apropos
+
+此外寻求指令帮助还可以用info指令阅读超链接文本
+
+## 文件权限与目录配置
+
+ Linux中文件可存取的身份有owner/group/others三种，且三种身份各有read/write/execute三种权限
