@@ -159,3 +159,9 @@ rmdir [-p] [目录名] -p:与mkdir的-p作用一致
 * head 只看头几行
 * tail 只看最后几行
 * od 以二进制的形式读取文件的内容
+
+### 修改文件时间或创建新文件
+文件的时间属性主要有3个，分别是：
+*　modification time(mtime)文件数据内容变更时间
+*　status time(ctime)文件的状态权限变更时间
+*　access time(atime)文件的内容被取用的时间
