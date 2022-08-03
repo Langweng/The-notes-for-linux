@@ -143,8 +143,19 @@ rmdir [-p] [目录名] -p:与mkdir的-p作用一致
 * cp:复制文件或目录
 <img src=https://github.com/Langweng/The-notes-for-linux/blob/main/mv%E5%91%BD%E4%BB%A4.png width=700 height=250>
 * rm:删除文件
-<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/rm%E5%91%BD%E4%BB%A4.png width=700 height=250>
+<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/rm%E5%91%BD%E4%BB%A4.png width=700 height=200>
 * mv:移动文件
 <img src=https://github.com/Langweng/The-notes-for-linux/blob/main/mv%E5%91%BD%E4%BB%A4.png width=700 height=250>
 
 文件名和目录名常用命令basename dirname 来截取
+
+### 文件内容查阅
+
+* cat 从第一行显示文件的内容
+* tac 从最后一行显示文件的内容
+* nl 顺便显示文件的行号
+* more 一页一页地显示文件的内容
+* less 一页一页地显示，并且可以向前翻页
+* head 只看头几行
+* tail 只看最后几行
+* od 以二进制的形式读取文件的内容
