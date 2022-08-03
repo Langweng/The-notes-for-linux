@@ -176,3 +176,11 @@ umask为数字显示形式，为各个权限需要减去的数字 umask -S则显
 <img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E8%AE%BE%E7%BD%AE%E5%B1%9E%E6%80%A7.png>
 * lsattr
 <img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E6%9F%A5%E7%9C%8B%E5%B1%9E%E6%80%A7.png>
+
+### 文件的特殊权限
+* SUID
+该权限只出现在文件原本应出现x权限的位置上，执行过程中会暂时获得文件owner的权限
+* SGID
+同理，执行过程中会暂时获得文件group的权限
+* SBIT
+仅对目录有效，当使用者有目录的w和x权限时，加之SBIT则只有创建者和root能够删除文件
