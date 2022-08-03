@@ -175,4 +175,4 @@ umask为数字显示形式，为各个权限需要减去的数字 umask -S则显
 * chattr
 <img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E8%AE%BE%E7%BD%AE%E5%B1%9E%E6%80%A7.png>
 * lsattr
-<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E8%AE%BE%E7%BD%AE%E5%B1%9E%E6%80%A7.png>
+<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/%E6%9F%A5%E7%9C%8B%E5%B1%9E%E6%80%A7.png>
