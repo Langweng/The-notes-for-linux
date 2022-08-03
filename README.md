@@ -141,7 +141,10 @@ rmdir [-p] [目录名] -p:与mkdir的-p作用一致
 
 * 文件与目录的检视经常用到ls命令
 * cp:复制文件或目录
+<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/mv%E5%91%BD%E4%BB%A4.png width=400 height=300>
 * rm:删除文件
+<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/rm%E5%91%BD%E4%BB%A4.png width=400 height=300>
 * mv:移动文件
+<img src=https://github.com/Langweng/The-notes-for-linux/blob/main/mv%E5%91%BD%E4%BB%A4.png width=400 height=300>
 
 文件名和目录名常用命令basename dirname 来截取
