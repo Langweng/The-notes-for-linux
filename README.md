@@ -165,3 +165,10 @@ rmdir [-p] [目录名] -p:与mkdir的-p作用一致
 *　modification time(mtime)文件数据内容变更时间
 *　status time(ctime)文件的状态权限变更时间
 *　access time(atime)文件的内容被取用的时间
+
+### 文件的隐藏属性
+umask:创建文件时文件的默认权限
+
+umask为数字显示形式，为各个权限需要减去的数字 umask -S则显示代码格式
+
+文件的隐藏属性使用lsattr显示，使用chattr进行设置两者设置的格式如下：
