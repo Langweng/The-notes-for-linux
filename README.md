@@ -196,3 +196,8 @@ file可以查看文件的基本情况
 * 快速搜寻文件全名指令。whereis [-bmsu] [文件名/目录名]
 * 快速搜寻文件关键词。 locate [-ir] keyword
 * 寻找文件(耗时) find [PATH] [option] [action]
+
+## Linux文件系统
+Linux是通过划分磁盘为许多block来储存文件，每个block最多储存1个文件，大文件可以由多个block储存
+
+此外，每个文件都会占用一个inode，每个inode记录了文件的属性和记录文件数据的block号码
